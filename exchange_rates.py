@@ -23,18 +23,18 @@ def get_rate():
 			currencies.append(codes[2].strip('\n'))
 
 
-	# with open("graph_edges.txt", 'w') as edges:
-	# 	for curr_from in currencies:
-	# 		for curr_to in currencies:
-	# 			if curr_to == curr_from:
-	# 				continue
+	with open("graph_edges.txt", 'w') as edges:
+		for curr_from in currencies:
+			for curr_to in currencies:
+				if curr_to == curr_from:
+					continue
 
-	# 			exch = get_exchange(curr_from, curr_to, api_key)
+				exch = get_exchange(curr_from, curr_to, api_key)
 			
-	# 			if exch != None:
-	# 				exch = float(exch)
-	# 				edges.write('%s %s %.6f\n' %(currencies.index(curr_from), currencies.index(curr_to),exch))
-	# 				print ("%s, %s, %.6f" %(curr_from,curr_to, exch))
-	# 			else:
-	# 				continue
+				if exch != None:
+					exch = float(exch)
+					edges.write('%s %s %.6f\n' %(currencies.index(curr_from), currencies.index(curr_to),exch))
+					print ("%s, %s, %.6f" %(curr_from,curr_to, exch))
+				else:
+					continue
 	return currencies
