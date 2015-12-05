@@ -1,0 +1,25 @@
+Argentina	Argentine Peso	ARS
+Australia	Australian Dollar	AUD
+Austria	Euro	EUR
+Brazil	Brazilian Real	BRL
+Canada	Canadian Dollar	CAD
+Czech Republic	Czech Koruna	CZK
+Fiji	Fiji Dollar	FJD
+Hong Kong	Hong Kong Dollar	HKD
+Hungary	Hungarian Forint	HUF
+India	Indian Rupee	INR
+Japan	Japanese Yen	JPY
+Mexico	Mexican Peso	MXN
+Morocco	Moroccan Dirham	MAD
+New Zealand	New Zealand Dollar	NZD
+Poland	Polish Zloty	PLN
+Russian Federation	Russian Rouble	RUB
+Saudi Arabia	Saudi Riyal	SAR
+Singapore	Singapore Dollar	SGD
+Switzerland	Swiss Franc	CHF
+Sweden	Swedish Krona	SEK
+United Kingdom	Pound Sterling	GBP
+United States	US Dollar	USD
+Trinidad and Tobago	Trinidad And Tobago Dollar	TTD
+South Africa	South African Rand	ZAR
+Qatar	Qatari Riyal	QAR
